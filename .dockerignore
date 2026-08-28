@@ -1,0 +1,6 @@
+logs/
+scripts/
+*.md
+.env
+.env.*
+ACCEPTANCE-RESULT.md
