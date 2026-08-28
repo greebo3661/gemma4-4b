@@ -1,34 +1,19 @@
-
-# --- lab backup extras (do not publish secrets, weights, runtime) ---
+# Local secrets and runtime
 .env
 .env.*
 !.env.example
-.venv/
-.venv2/
-.venv_check/
-venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.coverage
-htmlcov/
-data/
+
+# Model weights (download separately, see MODELS.md)
 model/
 models/
 *.gguf
 *.safetensors
-*.ckpt
 *.bin
-*.session
-*.session-journal
-uploads/
-node_modules/
-.next/
-bin/
-obj/
-*.exe
-*.webm
-*.wav
-*.mp3
+
+# Python / OS
+__pycache__/
+*.py[cod]
+.venv/
+venv/
 .DS_Store
 Thumbs.db
